@@ -8,7 +8,6 @@ import AstronomySection from "./components/AstronomySection";
 import CalendarSection from "./components/CalendarSection";
 import Footer from "./components/Footer";
 import StarField from "./components/StarField";
-import SocialSection from "./components/SocialSection";
 
 function App() {
   return (
@@ -30,8 +29,6 @@ function App() {
         <AstronomySection />
 
         <CalendarSection />
-
-        <SocialSection />
 
         <section className="relative overflow-hidden px-6 py-32 text-center">
           <div className="absolute inset-0 bg-gradient-to-b from-[#050505] via-[#120e06] to-[#050505]" />
@@ -55,7 +52,6 @@ function App() {
           </div>
         </section>
       </main>
-      <SocialSection />
       <Footer />
     </div>
   );

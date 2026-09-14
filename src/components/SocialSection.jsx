@@ -1,7 +1,7 @@
 ```jsx
 import { Instagram, ArrowUpRight } from "lucide-react";
 
-export default function SocialSection() {
+const SocialSection = () => {
   return (
     <section
       id="redes"
@@ -68,5 +68,7 @@ export default function SocialSection() {
 
     </section>
   );
-}
+};
+
+export default SocialSection;
 ```

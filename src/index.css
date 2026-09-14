@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: #f5f0e6;
+  background: #050505;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #050505;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.45),
+      rgba(5, 5, 5, 0.98)
+    );
+}
+
+.gold-gradient {
+  background: linear-gradient(
+    135deg,
+    #9c7220 0%,
+    #d4a83a 45%,
+    #f0ce72 100%
+  );
+}
+
+.gold-text {
+  background: linear-gradient(
+    135deg,
+    #b88928,
+    #e1bb58,
+    #f4d989
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass-dark {
+  background: rgba(10, 9, 7, 0.72);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(212, 168, 58, 0.15);
+}
+
+.gold-border {
+  border: 1px solid rgba(212, 168, 58, 0.25);
+}
+
+::selection {
+  background: #d4a83a;
+  color: #050505;
+}

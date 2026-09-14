@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ExperienceJourney from "./components/ExperienceJourney";
-import CosmUISection from "./components/CosmUISection";
+import CusmUISection from "./components/CusmUISection";
 import TerritorySection from "./components/TerritorySection";
 import CosmovisionSection from "./components/CosmovisionSection";
 import AstronomySection from "./components/AstronomySection";
@@ -18,7 +18,7 @@ function App() {
 
         <ExperienceJourney />
 
-        <CosmUISection />
+        <CusmUISection />
 
         <TerritorySection />
 

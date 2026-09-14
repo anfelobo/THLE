@@ -81,3 +81,16 @@ a {
   background: #d4a83a;
   color: #050505;
 }
+
+@keyframes starTwinkle {
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 0.75;
+    transform: scale(1.25);
+  }
+}

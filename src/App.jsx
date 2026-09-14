@@ -7,10 +7,12 @@ import CosmovisionSection from "./components/CosmovisionSection";
 import AstronomySection from "./components/AstronomySection";
 import CalendarSection from "./components/CalendarSection";
 import Footer from "./components/Footer";
+import StarField from "./components/StarField";
 
 function App() {
   return (
     <div className="min-h-screen bg-[#050505] text-[#F5F0E6]">
+       <StarField count={90} />
       <Navbar />
 
       <main>
